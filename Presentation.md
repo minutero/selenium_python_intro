@@ -1,30 +1,4 @@
-# <span style="color:green">[Selenium](https://www.selenium.dev/es/)</span>  
-Selenium is a web-based automation testing framework. Its original purpose is utilizing web browsers to perform unit tests on your website’s functionalities, or checking of broken links and various other HTML assets.  
-
-Selenium Webdriver is also a great tool for people to use in automating some of the monotonous web work that takes place on a regularly basis. 
-
-## Use your preferred language
-* Java
-* [Python](https://selenium-python.readthedocs.io/)
-* C#
-* Ruby
-* JavaScript
-
-<br>
-
-## What can you do with Selenium?
-
-1. Automated web testing  
-1. Downloading pictures/videos and uploading them to cloud storage or to social media  
-1. Downloading web based reports  
-1. Auto populate time sheets & trackers
-1. Booking a Flight
-1. Comparing prices
-
-
-<br><br><br>
-
-# <span style="color:lightblue">Usage</span>
+# <span style="color:lightblue">Pillars</span>
 ## <span style="color:lightblue">1. Navigating</span>
     driver.get("http://www.google.com")
 ## <span style="color:lightblue">2. Finding an element</span>

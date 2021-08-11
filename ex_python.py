@@ -12,10 +12,7 @@ sleep(2)
 
 elem = chrome.find_element_by_name("q")
 elem.clear()
-elem.send_keys("pycon")
-elem.send_keys(Keys.RETURN)
-
-
+elem.send_keys("pycon",Keys.RETURN)
 
 assert "No results found." not in chrome.page_source
 
