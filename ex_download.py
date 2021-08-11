@@ -19,3 +19,5 @@ assert 'ChromeDriver 92.0.4515.107' == elem.get_attribute("text")
 elem.click()
 
 chrome.get('https://chromedriver.storage.googleapis.com/92.0.4515.107/chromedriver_win32.zip')
+
+chrome.close()

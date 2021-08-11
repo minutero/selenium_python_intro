@@ -34,3 +34,5 @@ actions.perform()
 input_pass = chrome.find_element_by_id('pass')
 input_pass.clear()
 input_pass.send_keys(base64.b64decode(password).decode("utf8"), Keys.ENTER)
+
+chrome.close()

@@ -1,12 +1,14 @@
-#import packages
+#import Selenium
 from selenium import webdriver
+
+#Specific for this script
 from pathlib import Path
 import sys
 from time import sleep
 
 # Define some setup variables (Just use one of the 2)
-driver_path = Path(__file__).resolve().parent # Driver in the same folder as this file
-#driver_path = '/home/felipe/Proyectos/coffe_selenium' #Hardcoded path
+#driver_path = Path(__file__).resolve().parent # Driver in the same folder as this file
+driver_path = '/home/felipe/Proyectos/coffe_selenium' #Hardcoded path
 
 
 chrome = webdriver.Chrome(str(driver_path) + r'/chromedriver') #change to the correct name of your file
@@ -26,8 +28,8 @@ assert title == chrome.title
 
 #Send ‘Happy Testing at LambdaTest’ to the textbox with id = sampletodotext
 sample_text = "Happy Testing at LambdaTest"
-email_text_field = chrome.find_element_by_id("sampletodotext")
-email_text_field.send_keys(sample_text)
+text_box = chrome.find_element_by_id("sampletodotext")
+text_box.send_keys(sample_text)
 sleep(2)
 
 #Click the Add button
